@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/assets/275107622_100711502575057_4023763166377851043_n.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+    <title>Yancy Garret</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="left-column">
+        <h1>Yancy Garret Saac</h1>
+        <h3>Junior frontend developer</h3>
+        <p>I specialize in crafting interactive, elegant and responsive websites for both web and mobile platforms.</p>
+        <ul class="navbar">
+          <li><a class="underline-hover-effect active" href="#about-section" onclick="smoothScroll(event, 'about-section')">about</a></li>
+          <li><a class="underline-hover-effect" href="#technologies-section" onclick="smoothScroll(event, 'technologies-section')">technologies</a></li>
+          <li><a class="underline-hover-effect" href="#projects-section" onclick="smoothScroll(event, 'projects-section')">projects</a></li>
+          <li><a class="underline-hover-effect" href="#contact-section" onclick="smoothScroll(event, 'contact-section')">contact</a></li>
+        </ul>        
+        <section class="links">
+          <a href="https://www.instagram.com/yancykun.dev"><img src="images/instagram-167-svgrepo-com.svg" alt="instagram"></a>
+          <a href="mailto:yancygarret12@gmail.com"><img src="images/email-1573-svgrepo-com.svg" alt="email"></a>
+          <a href="https://www.linkedin.com/in/yancygarret/"><img src="images/linkedin-svgrepo-com.svg" alt="linkedin"></a>
+          <a href="https://github.com/yancykun"><img src="images/github-142-svgrepo-com.svg" alt="github"></a>
+        </section>
+      </div>
+
+      <div class="right-column">
+        <section class="about">
+          <h3>About</h3>
+          <p id="about-section">I am a Computer Science graduate from the University of Southern Mindanao, with a Bachelor's degree in the field. When I was in my third year of college, I made the decision to learn frontend development. So, I took the initiative to learn independently by following roadmaps, reading documentation, and watching YouTube tutorials. I dedicated more than 10 hours a day to coding and improving my skills. As a result, I have now acquired decent knowledge in frontend development and am still learning some libraries and frameworks.</p>
+          <p>Currently, my primary focus is on building interactive, responsive, and elegant websites for both web and mobile platforms. I have a keen eye for details and always strive for pixel-perfect design. I maintain an unwavering curiosity and love for learning new things. I take great pride in delivering high-quality work and am committed to meeting deadlines. Despite my limited experience in real-world jobs in frontend development, I approach each challenge with confidence and believe that I can make valuable contributions to any team.</p>
+        </section>
+
+        <section class="technology" >
+          <h3 id="technologies-section">Technologies</h3>
+          <ul class="technology-list">
+            <li>
+              <img src="images/html.svg" alt="html">HTML</li>
+            <li>
+              <img src="images/css.svg" alt="css">CSS</li>
+            <li>
+              <img src="images/tailwind css.svg" alt="tailwind css">Tailwind CSS</li>
+            <li>
+              <img src="images/javascript.svg" alt="javascript">JavaScript</li>
+            <li>
+              <img src="images/react js.svg" alt="react js">React.js</li>
+            <li>
+              <img src="images/figma.svg" alt="figma">Figma</li>
+            <li>
+              <img src="images/git.svg" alt="git">Git</li>
+            <li>
+              <img src="images/github-142-svgrepo-com.svg" alt="github">Github</li>
+          </ul>
+        </section>
+
+        <section class="project-container">
+          <h3 id="projects-section">Projects</h3>
+          <ol>
+            <li class="project-hover">
+              <div class="project">
+                <div class="project-img">
+                  <img src="images/reactapp-1.png" alt="">
+                </div>
+                <div class="project-info">
+                  <h4>Best Eats</h4>
+                  <div class="project-link">
+                    <a href="https://github.com/yancykun/react-project1">
+                      <span>Github</span>
+                      <img src="images/github-142-svgrepo-com.svg" alt="">
+                    </img>
+                    <a href="https://reactapp-1.pages.dev/">
+                      <span>Link</span>
+                      <img src="images/link-external-svgrepo-com.svg" alt="">
+                    </a>
+                  </div>
+                  <p>Best Eats is an online food delivery service website that includes a filter feature, built using Tailwind CSS and React JS.</p>
+                  <ul class="category-list">
+                    <li>React.js</li>
+                    <li>Tailwind CSS</li>
+                    <li>TypeScript</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="project-hover">
+              <div class="project">
+                <div class="project-img">
+                  <img src="images/reactapp-2.png" alt="">
+                </div>
+                <div class="project-info">
+                  <h4>HooBank</h4>
+                  <div class="project-link">
+                    <a href="https://github.com/yancykun/react-project2">
+                      <span>Github</span>
+                      <img src="images/github-142-svgrepo-com.svg" alt="">
+                    </img>
+                    <a href="https://reactapp-2.pages.dev/">
+                      <span>Link</span>
+                      <img src="images/link-external-svgrepo-com.svg" alt="">
+                    </a>
+                  </div>
+                  <p>HooBank is a GPT-3 landing page designed by AR SHAKIR, and I built it using vanilla CSS and React JS.</p>
+                  <ul class="category-list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React.js</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="project-hover">
+              <div class="project">
+                <div class="project-img">
+                  <img src="images/Project1.png" alt="">
+                </div>
+                <div class="project-info">
+                  <h4>Frontend Challenges</h4>
+                  <div class="project-link">
+                    <a href="https://github.com/yancykun/frontend-challenges">
+                      <span>Github</span>
+                      <img src="images/github-142-svgrepo-com.svg" alt="">
+                    </img>
+                    <a href="https://frontend-challenges-4vi.pages.dev/">
+                      <span>Link</span>
+                      <img src="images/link-external-svgrepo-com.svg" alt="">
+                    </a>
+                  </div>
+                  <p>Frontend Challenges is a website that compiles all of my frontend mentor challenges that I have done.</p>
+                  <ul class="category-list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Figma</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+          </ol>
+        </section>
+
+          <section class="contact" id="contact-section">
+            <h3>Get in touch</h3>
+            <p>I am willing to engage in conversations regarding potential positions, collaborations, or any other professional prospects. Please feel free to reach out to me using the provided email. I value your time and consideration and eagerly anticipate the opportunity to work together. Thank you!</p>
+            <div>
+              <a class="underline-hover-effect" href="mailto:yancygarret12@gmail.com">Say Hello</a>
+              <a class="underline-hover-effect" href="assets/resume.pdf">View Resume</a>
+            </div>
+          </section>
+
+        <footer>
+          <p>Built by <a class="underline-hover-effect" href="https://github.com/yancykun"><span>Yancy Garret Saac</span></a> © 2023. All rights reserved.</p>
+        </footer>
+      </div>
+    </div>
+
+  </body>
+</html>
